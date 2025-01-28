@@ -40,19 +40,42 @@ The dataset used in this project is the Titanic dataset. It includes features su
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/titanic_rf_analysis.git
-   ```
-2. Navigate to the directory:
-   ```bash
-   cd titanic_rf_analysis
-   ```
-3. Install the required Python libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
+1.Set up your Python environment using Anaconda Navigator:
 
+Open Anaconda Navigator.
+Create a new environment (e.g., titanic_env) with Python 3.8 or higher.
+Activate the environment:
+bash
+Copy
+Edit
+conda activate titanic_env
+Install required libraries in the environment:
+bash
+Copy
+Edit
+conda install pandas numpy scikit-learn
+Alternatively, install the required files and libraries manually:
+
+Ensure you have Python installed (3.8 or higher).
+Install the required libraries using pip:
+bash
+Copy
+Edit
+pip install pandas numpy scikit-learn
+If you prefer using Jupyter Notebook:
+
+Install Jupyter Notebook in your environment:
+bash
+Copy
+Edit
+conda install notebook
+Launch Jupyter Notebook:
+bash
+Copy
+Edit
+jupyter notebook
+This updated section is tailored for users who prefer Anaconda Navigator or Jupyter Notebook for managing their Python environments.
+   
 ## Workflow
 
 ### 1. Data Preprocessing
