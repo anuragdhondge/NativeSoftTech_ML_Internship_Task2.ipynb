@@ -46,34 +46,24 @@ Open Anaconda Navigator.
 Create a new environment (e.g., titanic_env) with Python 3.8 or higher.
 Activate the environment:
 bash
-Copy
-Edit
-conda activate titanic_env
+(conda activate titanic_env)
 Install required libraries in the environment:
 bash
-Copy
-Edit
-conda install pandas numpy scikit-learn
+(conda install pandas numpy scikit-learn)
 Alternatively, install the required files and libraries manually:
 
 Ensure you have Python installed (3.8 or higher).
 Install the required libraries using pip:
 bash
-Copy
-Edit
-pip install pandas numpy scikit-learn
+(pip install pandas numpy scikit-learn)
 If you prefer using Jupyter Notebook:
 
 Install Jupyter Notebook in your environment:
 bash
-Copy
-Edit
-conda install notebook
+(conda install notebook)
 Launch Jupyter Notebook:
 bash
-Copy
-Edit
-jupyter notebook
+(jupyter notebook)
 This updated section is tailored for users who prefer Anaconda Navigator or Jupyter Notebook for managing their Python environments.
    
 ## Workflow
